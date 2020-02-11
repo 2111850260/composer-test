@@ -1,0 +1,14 @@
+{
+    "name": "test/composer-test",
+    "description": "composer self test",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Test\\ComposerTest\\": "src/"
+        },
+        "files": []
+    }
+}
